@@ -2,11 +2,11 @@
     make_partisan_bigram_dummies.py
     
     > Reads in partisanship scores of different congressional bigrams from Gentzkow et al. (2020) and identifies the 
-    1000 most Republican and Democrat-leaning bigrams over the time-span of the sample
+    1000 most Republican and Democrat-leaning bigrams over the time-span of the sample.
     
     > Generates speech-level dummies for each of these bigrams which will later be used in Stata to estimate the 
     probabilities (and their standard errors) of the bigrams being spoken in speeches where God has and has not been 
-    evoked (Python runs into memory errors when trying to estimate these)
+    evoked.
     
     > Each party's partisan bigram dummies stored in a .csv file: "data/<rep/dem>_partisan_bigram_dummies.csv"
 
