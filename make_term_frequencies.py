@@ -68,7 +68,7 @@ stemmer = Stemmer.Stemmer('english')
 
 ## Read in congress metadata ##
 
-corpus_metadata = pd.read_stata('F:/corpora/congress/metadata_by_month.dta')
+corpus_metadata = pd.read_stata('corpora/metadata_by_month.dta')
 
 
 ## Create speech-level metadata, term_frequencies and god_dummies (saved in lists for each year) ##
@@ -109,7 +109,7 @@ for chamber in ['H','S']:
             else:
                 dataset = 'hein'
                                  
-            path = f'F:/corpora/congress/{dataset}/{chamber}/{date_str}'
+            path = f'corpora/congress/{dataset}/{chamber}/{date_str}'
                     
             # if no speeches found for the current date, continue
             try:
