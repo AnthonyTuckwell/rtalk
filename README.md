@@ -1,6 +1,6 @@
 # rtalk
 
-This repo provides code that accompanies the paper by Ash, Hills and Tuckwell, "The Political Economy of Religious Language: Evidence from the United States Congress", available [here] (https://drive.google.com/file/d/104eOKbd9lHXuZa2Mx6VHB8SYgp8KpHXt/view?usp=sharing). 
+This repo provides code that accompanies the paper by Ash, Hills and Tuckwell, "The Political Economy of Religious Language: Evidence from the United States Congress", available [here](https://drive.google.com/file/d/104eOKbd9lHXuZa2Mx6VHB8SYgp8KpHXt/view?usp=sharing). 
 
 To generate the data and results of the paper, first download the congressional speeches from [here](https://www.dropbox.com/sh/0oh91e4vlogm7p0/AACEpGpFT9tEd0o5MCkzAULKa?dl=0) (unzip "gpo.zip" and "hein.zip" into "corpora/congress/" (warning: unzipped size of data is 767 GB)) and then run the following scripts:
 
